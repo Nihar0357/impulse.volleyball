@@ -50,19 +50,71 @@
       align-items: center;
     }
   }
+
+  .fixtures-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+  }
+
+  .fixtures-table th, .fixtures-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .fixtures-table th {
+    background-color: #f2f2f2;
+  }
+
+  .fixtures-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .fixtures-table tr:hover {
+    background-color: #ddd;
+  }
 </style>
 </head>
 <body>
 
 <div class="button-container">
   <div>Fixtures & Updates [21/02/2024]</div>
-  <div>, </div>
-  <div>,</div>
-  <div>AI/ML(2nd year) vs Robotics(1st year). [5:00 pm]</div>
-  <div>Chemical(1st year) vs computer (2nd year). [5:30 pm]</div>
-  <div>Robotic(2nd year) vs mechanical (2nd year). [6:00 pm]</div>
-  <div>Report time 4:30 pm on ground. No excuses will be entertained.</div>
-
+  
+ <pre> 
+ <table class="fixtures-table">
+    <tr>
+      <th>Match</th>
+      <th>Team 1</th>
+      <th>vs</th>
+      <th>Team 2</th>
+      <th>Time</th>
+    </tr>
+    <tr>
+      <td>Match 1</td>
+      <td>AI/ML (2nd year)</td>
+      <td>vs</td>
+      <td>Robotics (1st year)</td>
+      <td>5:00 pm</td>
+    </tr>
+    <tr>
+      <td>Match 2</td>
+      <td>Chemical (1st year)</td>
+      <td>vs</td>
+      <td>Computer (2nd year)</td>
+      <td>5:30 pm</td>
+    </tr>
+    <tr>
+      <td>Match 3</td>
+      <td>Robotic (2nd year)</td>
+      <td>vs</td>
+      <td>Mechanical (2nd year)</td>
+      <td>6:00 pm</td>
+    </tr>
+  </table>
+  
+ </pre>
 
   <a class="button" href="VOLLEYBALL  BOYS LOTS.pdf">Boys Fixtures</a>
   <a class="button" href="https://example.org">Girls Fixtures</a>
