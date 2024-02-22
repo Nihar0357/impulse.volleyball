@@ -9,10 +9,6 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-image: url('istockphoto-1371823675-612x6122.jpg');
     background-size: cover;
     background-position: center;
@@ -25,6 +21,8 @@
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
+    margin: auto;
+    margin-top: 50px; /* Adjust the margin-top to give space from the top */
   }
   
   .button {
@@ -79,9 +77,29 @@
       padding: 6px; /* Adjust the padding for smaller screens */
     }
   }
+
+  .update-panel {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+  }
+
+  /* Add hover effect */
+  .update-panel:hover {
+    background-color: #ffdb4d;
+    color: #000;
+  }
 </style>
 </head>
 <body>
+
+<div class="update-panel">
+  <p style="color: red;">IMPORTANT NOTICE</p>
+  <p>Please be on time for your matches otherwise you may face consequences</p>
+</div>
 
 <div class="button-container">
   <div><b>Fixtures & Updates [23/02/2024]</b></div>
